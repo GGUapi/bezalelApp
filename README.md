@@ -1,16 +1,33 @@
-# bezalel_app
+# 行動電源輔助App
 
-A new Flutter project.
+這是一款行動電源輔助用App，使用Android Studio完成作品，使用者可利用藍芽連結行動電源，查看行動電源詳細資訊，如確切剩餘電量、輸出功率、內部溫度等等，若內部溫度過高，亦會在App中提醒使用者防範。
 
-## Getting Started
+## 功能介紹
 
-This project is a starting point for a Flutter application.
+主要功能分為三大部分：
 
-A few resources to get you started if this is your first Flutter project:
+1. **連接行動電源並查看資訊**  
+   透過藍芽連接帶有藍芽模組的行動電源，連線成功後可接收過熱通知及查看該設備資訊，
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **與主辦人聊天**  
+   若成功參加活動，系統會為雙方建立聊天室供彼此聯絡，聊天室使用firebase維護，每個聊天室獨立一個資料庫互不干涉。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **查看運動地圖**  
+   系統可依據使用著想要的運動型態，篩選出適合的運動場地供使用者參考，場地資訊取用自台北市政府公開的經緯度資料。
+
+5. **編輯個人資訊**  
+   成功登入後可編輯個人詳細資料，填入暱稱、頭貼、性別、年紀、喜好的運動等等資訊後，能讓主辦人或參與活動者更了解彼此。
+
+## 未來展望
+
+1. **群組聊天功能**  
+   未來可將聊天室群組化，不再只能一對一聊天，凡參與活動者皆可在活動參與前先認識彼此，主辦人在宣布事情上也能提升效率。
+
+2. **紀錄運動日誌**  
+   可提供使用者紀錄每日運動狀態，並統計成圖表，提供使用者掌握自身運動狀況。
+
+3. **發表社群貼文**  
+   未來可發展如推特、Thread一般可供使用者發表運動心得、分享與網友運動的快樂等等貼文，亦可供他人按讚及留言。
+
+4. **計算卡路里消耗**  
+   可偵測所走步數計算熱量消耗並逐日記錄，亦可設定每日步數目標，若尚未達成會跳出通知提醒。
